@@ -32,20 +32,11 @@ double log(double value, int base) {
 }
 
 char[] integerToArray(int number, int base, boolean b_endian_encoding) {
-	char[] results = new char[100]; int iteriation = 0;
-	while(number > 0) {
-		results[iteriation] = integerToChar(number % base); number = (int) Math.floor(number/base); iteriation++; 
-	}
+	int iteriation = (int) log(number, base) + 1; char[] results = new char[iteriation]; 
+	int counter_operation = iteriation; 
 
-	if(b_endian_encoding) {
-		char[] temp = new char[iteriation]; 
-		for(int x = 0; x < iteriation; x++) {
-			temp[x] = results[x]; 
-		};
-
-		for(int y = iteriation - 1; y >= 0; y--) {
-			results[y] = temp[Math.abs(y - (iteriation -1))]; 
-		}
+	while(iteriation > 0) {
+		results[b_endian_encoding ? iteriation - 1 : Math.abs(iteriation - counter_operation)] = integerToChar(number % base); number = (int) Math.floor(number/base); iteriation--; 
 	}
 
 	return results; 
