@@ -1,3 +1,5 @@
+package datastructure; 
+
 public class ArrayQuene implements Quene{
 
     private int front; 
@@ -21,10 +23,9 @@ public class ArrayQuene implements Quene{
     
     @Override 
     public String dequene() {
-        if(this.size == 0) 
-            return null;
+       
 
-        s
+        
     }; 
 
     @Override 
@@ -36,7 +37,7 @@ public class ArrayQuene implements Quene{
     public String toString() {
         String details = ""; 
         
-        if
+        
 
         for (String element : elements) {
             details += element; 
