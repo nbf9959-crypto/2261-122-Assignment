@@ -18,7 +18,7 @@ public class Animal {
     }
 
     public void showProgress(int mile) {
-        System.out.println(String.format("%s : mile %s of %s", mile, 45, this.totalMiles));
+        System.out.println(String.format("%s : mile %s of %s", this.name, mile, this.totalMiles));
     }
     
 }
