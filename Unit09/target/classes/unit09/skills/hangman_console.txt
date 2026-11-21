@@ -1,0 +1,166 @@
+-[ Invalid Outcome ]-
+
+____, __ ______, __ ___ ______ ______!
+
+remaining: 6
+>> e
+____, __ ___e__, __ __e _e__e_ _____e!
+e
+remaining: 6
+>> d
+____, __ ___e_d, __ __e _e__e_ _____e!
+d e
+remaining: 6
+>> f
+____, __ f__e_d, __ __e _e__e_ _____e!
+d e f
+remaining: 6
+>> g
+____, __ f__e_d, __ __e _e__e_ _____e!
+d e f g
+remaining: 5
+>> h
+_h__, __ f__e_d, __ _he _e__e_ _h___e!
+d e f g h
+remaining: 5
+>> v
+_h__, __ f__e_d, __ _he _e__e_ _h___e!
+d e f v g h
+remaining: 4
+>> s
+_h_s, __ f__e_d, _s _he se__e_ _h__se!
+s d e f v g h
+remaining: 4
+>> j
+_h_s, __ f__e_d, _s _he se__e_ _h__se!
+s d e f v g h j
+remaining: 3
+>> m
+_h_s, m_ f__e_d, _s _he se__e_ _h__se!
+s d e f v g h j m
+remaining: 3
+>> w
+_h_s, m_ f__e_d, _s _he se__e_ _h__se!
+s d e f v g w h j m
+remaining: 2
+>> q
+_h_s, m_ f__e_d, _s _he se__e_ _h__se!
+q s d e f v g w h j m
+remaining: 1
+>> z
+_h_s, m_ f__e_d, _s _he se__e_ _h__se!
+q s d e f v g w h j z m
+remaining: 0
+You lost. Too bad!
+
+_______________________________________
+
+
+-[ Valid Outcome 1# ]- 
+
+____, __ ______, __ ___ ______ ______!
+
+remaining: 6
+>> this is
+t___, __ ______, __ t__ _____t ______!
+t
+remaining: 6
+>> h
+th__, __ ______, __ th_ _____t _h____!
+t h
+remaining: 6
+>> i
+thi_, __ __i___, i_ th_ _____t _h____!
+t h i
+remaining: 6
+>> s
+this, __ __i___, is th_ s____t _h__s_!
+s t h i
+remaining: 6
+>> t
+this, __ __i___, is th_ s____t _h__s_!
+s t h i
+remaining: 6
+>> h
+this, __ __i___, is th_ s____t _h__s_!
+s t h i
+remaining: 6
+>> p
+this, __ __i___, is th_ s____t ph__s_!
+p s t h i
+remaining: 6
+>> r
+this, __ _ri___, is th_ s__r_t phr_s_!
+p r s t h i
+remaining: 6
+>> a
+this, __ _ri___, is th_ s__r_t phras_!
+p a r s t h i
+remaining: 6
+>> e
+this, __ _rie__, is the se_ret phrase!
+p a r s t e h i
+remaining: 6
+>> c
+this, __ _rie__, is the secret phrase!
+p a r s c t e h i
+remaining: 6
+>> m
+this, m_ _rie__, is the secret phrase!
+p a r s c t e h i m
+remaining: 6
+>> y
+this, my _rie__, is the secret phrase!
+p a r s c t e h i y m
+remaining: 6
+>> f
+this, my frie__, is the secret phrase!
+p a r s c t e f h i y m
+remaining: 6
+>> n
+this, my frien_, is the secret phrase!
+a c e f h i m n p r s t y
+remaining: 6
+>> d
+this, my friend, is the secret phrase!
+a c d e f h i m n p r s t y
+remaining: 6
+Congratulations! You won!
+
+_______________________________________
+
+
+-[ Valid Outcome 1# ]- 
+
+______
+
+remaining: 6
+>> g
+______
+g
+remaining: 5
+>> k
+___k__
+g k
+remaining: 5
+>> o
+_ook__
+g k o
+remaining: 5
+>> o
+_ook__
+g k o
+remaining: 5
+>> i
+_ooki_
+g i k o
+remaining: 5
+>> e
+_ookie
+e g i k o
+remaining: 5
+>> c
+Cookie
+c e g i k o
+remaining: 5
+Congratulations! You won!
